@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear-fix {
+    clear: both;
+
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-dec {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: rgb(42, 49, 127);
+    text-align: center;
+    border-radius: 30px;
+    padding: 30px 20px;
+}
+
+.links {
+    width: 100%;
+    
+}
+
+
+.pages {
+    display: inline-block;
+    background-color: rgba(192, 196, 239, 0.3);
+    margin: 10px auto;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.navbar h1 {
+    color: whitesmoke;
+}
+
+.navbar h3 {
+    color: rgb(147, 201, 255);
+}
+
+
+.About-Me {
+    background-color: rgb(106, 111, 167);
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+.About-Me h2 {
+    color: rgb(32, 32, 118);
+    padding: 20px 5px 0 30px;
+}
+
+.About-Me hr {
+    margin: 0 30px 5px;
+}
+
+
+.About-Me img {
+    width: 150px;
+    float: left;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    margin: 20px 25px 20px;
+}
+
+.About-Me p {
+    margin: 20px 10px 10px 20px;
+    color: white;
+}
+
+.About-Me .p1 span {
+    color: rgb(32, 32, 118);
+}
+
+.About-Me .button {
+    display: inline-block;
+    background-color: #0b5fa5;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 10px 10px 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.Skills-2 {
+    background-color: rgb(106, 111, 167);
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.Skills-2 h2 {
+    color: rgb(32, 32, 118);
+    padding: 20px 5px 0 30px;
+}
+
+.Skills-2 p#pskill {
+    padding: 10px 5px 0 30px;
+}
+
+.Skills-2 hr {
+    margin: 0 30px 5px;
+}
+
+
+.Skills-2 .cards {
+    width: 100%;
+}
+
+
+.cards .div {
+    float: left;
+    width: 25%;
+    background-color: aliceblue;
+    margin: 0 0 30px;
+    padding: 5px 10px 5px 20px;
+    border-radius: 20px;
+}
+
+.cards .div h3 {
+    color: rgb(32, 32, 118);
+}
+
+.Exp {
+    background-color: rgb(106, 111, 167);
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 10px 20px 10px;
+    border-radius: 20px;
+}
+
+.Exp h2 {
+    color: rgb(32, 32, 118);
+    padding: 20px 5px 0 30px;
+}
+
+.Exp hr {
+    margin: 0 30px 5px;
+}
+
+.Exp .senior {
+    background-color: aliceblue;
+    margin: 20px 5px;
+    border-radius: 10px;
+    padding: 10px 40px 20px 20px;
+    border-left: 5px solid #0056b3;
+}
+
+.Exp .senior img {
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 20px 20px 10px 5px;
+    width: 65px;
+    float: left;
+    border: skyblue solid 1px;
+    border-radius: 10px;
+}
+
+.exp-content {
+    float: left;
+}
+
+.exp-content .first {
+    color: #0056b3;
+}
+
+.senior-date {
+    margin: 0 0 5px 0;
+}
+
+.Front-End {
+    background-color: aliceblue;
+    margin: 20px 5px;
+    border-radius: 10px;
+    padding: 10px 40px 20px 20px;
+    border-left: 5px solid #0056b3;
+}
+
+.Front-End img {
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 20px 20px 10px 5px;
+    width: 65px;
+    float: left;
+    border: skyblue solid 1px;
+    border-radius: 10px;
+}
+
+.Front-content {
+    float: left;
+}
+
+.Front-content .second {
+    color: #0056b3;
+}
+
+.Front-content .date2 {
+    margin: 0 0 5px 0;
+}
+
+.Contact-me {
+    background-color: rgb(42, 49, 127);
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 10px 20px 10px;
+    border-radius: 20px;
+}
+
+.Contact-me h2#Contact {
+    color: white;
+    padding: 20px 5px 0 30px;
+}
+
+.Contact-me hr {
+    margin: 0 30px 5px;
+}
+
+.Contact-me p {
+    padding: 10px 5px 0 30px;
+    color: white;
+}
+
+.social-links a {
+    float: left;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: rgb(83, 91, 180);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: rgb(14, 20, 82);
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 10px 20px 10px;
+    border-radius: 10px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    padding: 30px 10px 10px 10px;
+}
+
+.footer span {
+    color: rgb(151, 211, 231);
+}
